@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, FlatList } from 'react-native';
+import { View, StyleSheet, FlatList, LogBox } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Button, Text } from '@rneui/themed';
