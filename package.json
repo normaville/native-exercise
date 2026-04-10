@@ -2,6 +2,7 @@
   "name": "native-exercise",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://normaville.github.io/native-exercise/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -27,5 +28,8 @@
     "react-native-web": "^0.21.0",
     "react-test-renderer": "^19.2.4"
   },
-  "private": true
+  "private": false,
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
